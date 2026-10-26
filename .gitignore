@@ -1,0 +1,24 @@
+# Bases de données (contiennent des données de santé : ne jamais publier)
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration locale
+cmev_config.json
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Éditeur / système
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
